@@ -28,7 +28,7 @@ orbital ephemeris data.
 Against a fidelity-greedy deterministic baseline, the trained PPO agent achieves:
 
 - **↑ 84% higher throughput** (served requests per second) at Time-To-Live (TTL) = 1 s
-- **↓ 6.3× fewer expired requests** at TTL = 1 s
+- **↓ 4× fewer expired requests** at TTL = 1 s
 - **Stable 110–122 req/s** across all TTL regimes (1 s – 5 s)
 - **> 99.9% success rate** and **~94% average fidelity** in all configurations
 

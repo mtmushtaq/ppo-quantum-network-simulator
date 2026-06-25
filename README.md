@@ -12,7 +12,7 @@
 
 This repository contains the full implementation of the framework presented in:
 
-> **"Optimal Solution for Entalgment Rate and Fidelity Maximization under Requests Expiration Constraint"**
+> **"Optimal Solution for Entalgment Rate and Fidelity Maximization under Requests Expiration Constraint for Free-Space Quantum Networks"**
 > Muhammad Tauseef Mushtaq, Vito Guida, Nicola Cordeschi
 > Department of Electrical and Information Engineering, Politecnico di Bari
 

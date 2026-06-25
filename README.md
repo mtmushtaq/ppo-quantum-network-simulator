@@ -12,8 +12,7 @@
 
 This repository contains the full implementation of the framework presented in:
 
-> **"PPO-Based Entanglement Scheduling for LEO Satellite Quantum Networks:
-> A Physics-Accurate MDP Formulation"**
+> **"Optimal Solution for Entalgment Rate and Fidelity Maximization under Requests Expiration Constraint"**
 > Muhammad Tauseef Mushtaq, Vito Guida, Nicola Cordeschi
 > Department of Electrical and Information Engineering, Politecnico di Bari
 

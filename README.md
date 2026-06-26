@@ -16,13 +16,7 @@ This repository contains the full implementation of the framework presented in:
 > Muhammad Tauseef Mushtaq, Vito Guida, Nicola Cordeschi
 > Department of Electrical and Information Engineering, Politecnico di Bari
 
-We address the problem of entanglement request scheduling in Low Earth Orbit
-(LEO) satellite quantum networks using a physics-grounded Markov Decision
-Process (MDP) solved by Proximal Policy Optimization (PPO) with dynamic
-action masking. The environment integrates a complete physical-layer model —
-free-space diffraction, atmospheric attenuation, iterative entanglement
-purification, and quantum memory decoherence — running on real Starlink
-orbital ephemeris data.
+We address the problem of scheduling entanglement requests in Low Earth Orbit (LEO) satellite quantum networks using a physics-grounded Markov Decision Process (MDP) solved with Proximal Policy Optimization (PPO) and dynamic action masking. The environment integrates a complete physical-layer model — free-space diffraction, atmospheric attenuation, iterative entanglement purification, and quantum memory decoherence — running on real Starlink orbital ephemeris data.
 
 Against a fidelity-greedy deterministic baseline, the trained PPO agent achieves:
 

@@ -12,11 +12,11 @@
 
 This repository contains the full implementation of the framework presented in:
 
-> **"Optimal Solution for Entalgment Rate and Fidelity Maximization under Requests Expiration Constraint for Free-Space Quantum Networks"**
+> **"Optimal Solution for Entanglement Rate and Fidelity Maximization under Requests Expiration Constraint for Free-Space Quantum Networks"**
 > Muhammad Tauseef Mushtaq, Vito Guida, Nicola Cordeschi
 > Department of Electrical and Information Engineering, Politecnico di Bari
 
-We address the problem of scheduling entanglement requests in Low Earth Orbit (LEO) satellite quantum networks using a physics-grounded Markov Decision Process (MDP) solved with Proximal Policy Optimization (PPO) and dynamic action masking. The environment integrates a complete physical-layer model — free-space diffraction, atmospheric attenuation, iterative entanglement purification, and quantum memory decoherence — running on real Starlink orbital ephemeris data.
+We address the problem of scheduling entanglement requests in Low Earth Orbit (LEO) satellite quantum networks using a physics-grounded Markov Decision Process (MDP) solved with Proximal Policy Optimization (PPO) and dynamic action masking. The environment integrates a complete physical-layer model containing free-space diffraction, atmospheric attenuation, iterative entanglement purification, probabilistic swapping for end-to-end connection, and time-decaying fidelity decoherence. The simulator also obtains Starlink orbital ephemeris data and tests and validates the optimal solutions under the available satellites constraint.
 
 Against a fidelity-greedy deterministic baseline, the trained PPO agent achieves:
 
@@ -25,10 +25,7 @@ Against a fidelity-greedy deterministic baseline, the trained PPO agent achieves
 - **Stable 110–122 req/s** across all TTL regimes (1 s – 5 s)
 - **> 99.9% success rate** and **~94% average fidelity** in all configurations
 
-The Greedy baseline *degrades* as TTL increases (queue-clogging),
-while PPO exploits longer coherence windows — demonstrating that
-AI-driven scheduling is a necessary complement to hardware improvements
-in future quantum network infrastructure.
+The Greedy baseline *degrades* as TTL increases(queue congestion) while the PPO exploits longer coherence windows, demonstrating that AI-driven scheduling is a necessary complement to hardware improvements in future quantum network infrastructure.
 
 
 ---
